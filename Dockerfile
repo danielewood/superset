@@ -28,6 +28,8 @@ RUN mkdir /app \
             default-libmysqlclient-dev \
             libpq-dev \
             libsasl2-dev \
+            libsasl2-2 \
+            libsasl2-modules-gssapi-mit \
             libecpg-dev \
         && rm -rf /var/lib/apt/lists/*
 
